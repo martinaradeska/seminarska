@@ -1,0 +1,163 @@
+<style>
+    body {
+        font-family: "Open Sans", sans-serif;
+        color: #777;
+    }
+
+    h1, h2, h3, h4, h5, h6, .font-primary {
+        font-family: "Lato", sans-serif;
+    }
+
+    #homepage {
+        text-align: center;
+        padding-top: 155px;
+        padding-bottom: 155px;
+        color: #073839;
+    }
+
+    .contact .contact-about h3 {
+        font-size: 36px;
+        margin: 0 0 10px 0;
+        padding: 0;
+        line-height: 1;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #70b9b0;
+    }
+
+    .contact .contact-about p {
+        font-size: 14px;
+        line-height: 24px;
+        font-family: "Lato", sans-serif;
+        color: #888;
+    }
+
+    .contact .info {
+        color: #777;
+    }
+
+    .contact .info i {
+        font-size: 32px;
+        color: #70b9b0;
+        float: left;
+        line-height: 1;
+    }
+
+    .contact .info p {
+        padding: 0 0 10px 42px;
+        line-height: 28px;
+        font-size: 14px;
+    }
+
+    #footer {
+        background: #073839;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    #footer .txt {
+        padding-top: 12px;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        padding-bottom: 12px;
+    }
+
+    .section-title {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #contact {
+        padding-top: 18px;
+    }
+
+    #about-title {
+        padding-bottom: 7px;
+    }
+
+    #iframe {
+        margin-left: 85px;
+    }
+
+    #first {
+        padding-bottom: 20px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+</style>
+<link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+<link href="/resources/demos/style.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#datepicker").datepicker();
+    });
+</script>
+<section id="hero" style="background-color: #f2f9f8;">
+    <div id="homepage">
+        <h1 id="title">Welcome to E-Library</h1>
+        <h1><i class='fas fa-book-open'></i></h1>
+    </div>
+</section>
+<hr>
+<div id="first" style="background-color: white;">
+    <div class="section-title">
+        <h4 id="about-title">About</h4>
+        <hr>
+        <p>With E-Library you can view tons of books and information about them.
+            You can rent books which you want to read.</p>
+    </div>
+</div>
+<hr>
+<section class="contact section-bg" id="contact" style="background-color: #f2f9f8;">
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="contact-about">
+                    <p>University project by Martina Radeska 181050</p>
+                    <p>Subject: Web Programming</p>
+                    <p>martina.radeska@students.finki.ukim.mk</p>
+                    <div class="social-links">
+                        <div id="datepicker"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="info">
+
+                    <p>Faculty of Computer Science and Engineering</p>
+                    <p>ul.Rudzer Boshkovikj 16,
+                        P.O. 393, 1000 Skopje,
+                        Republic of North Macedonia</p>
+                </div>
+
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <iframe frameborder="0"
+                        height="364"
+                        id="iframe"
+                        marginheight="0"
+                        marginwidth="0"
+                        scrolling="no"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=700&amp;hl=en&amp;q=Faculty%20of%20Computer%20Science%20&amp;%20Engineering,%20Ruger%20Boshkovikj,%20Skopje,%20North%20Macedonia%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        width="90%">
+
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="text-black-50 mt-xl-5" id="footer">
+
+    <div class="txt">
+        E-Library
+    </div>
+
+</footer>
+
+
+
+
