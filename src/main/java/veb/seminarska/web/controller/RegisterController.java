@@ -51,9 +51,9 @@ public class RegisterController {
             this.userService.register(username, password, repeatedPassword, name, surname, role);
             SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
             simpleMailMessage.setTo(username);
-            simpleMailMessage.setFrom("");
+            simpleMailMessage.setFrom("martinaradeska12@gmail.com");
             simpleMailMessage.setSubject("Registration Successful");
-            simpleMailMessage.setText("Welcome to PERSONAL LIBRARY - WEB PROGRAMMING PROJECT");
+            simpleMailMessage.setText("Welcome to E-LIBRARY - WEB PROGRAMMING PROJECT");
             javaMailSender.send(simpleMailMessage);
             SimpleMailMessage email = new SimpleMailMessage();
 
